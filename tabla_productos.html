@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabla de Productos</title>
+  <style>
+    /* Estilos básicos para la tabla */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tabla de Productos</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID_Producto</th>
+        <th>Nombre_Producto</th>
+        <th>Categoría</th>
+        <th>ID_Proveedor</th>
+        <th>Costo_Unitario</th>
+        <th>Precio_Base</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ali1001</td>
+        <td>Alimentos</td>
+        <td>1</td>
+        <td>$ 33.097</td>
+        <td>$ 70.419</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Hog1006</td>
+        <td>Hogar</td>
+        <td>20</td>
+        <td>$ 588.332</td>
+        <td>$ 1.307.404</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Sal1002</td>
+        <td>Salud</td>
+        <td>14</td>
+        <td>$ 60.143</td>
+        <td>$ 117.927</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Hog1004</td>
+        <td>Hogar</td>
+        <td>23</td>
+        <td>$ 704.060</td>
+        <td>$ 1.005.800</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Sal1005</td>
+        <td>Salud</td>
+        <td>8</td>
+        <td>$ 41.565</td>
+        <td>$ 84.826</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Rop1007</td>
+        <td>Ropa</td>
+        <td>8</td>
+        <td>$ 158.540</td>
+        <td>$ 214.243</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Ali1004</td>
+        <td>Alimentos</td>
+        <td>20</td>
+        <td>$ 41.293</td>
+        <td>$ 57.351</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Rop1005</td>
+        <td>Ropa</td>
+        <td>11</td>
+        <td>$ 62.494</td>
+        <td>$ 130.195</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Sal1007</td>
+        <td>Salud</td>
+        <td>24</td>
+        <td>$ 65.767</td>
+        <td>$ 146.148</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Otr1008</td>
+        <td>Otros</td>
+        <td>5</td>
+        <td>$ 10.422</td>
+        <td>$ 17.968</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>Otr1006</td>
+        <td>Otros</td>
+        <td>15</td>
+        <td>$ 43.132</td>
+        <td>$ 68.463</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>Ele1005</td>
+        <td>Electrónica</td>
+        <td>14</td>
+        <td>$ 779.040</td>
+        <td>$ 1.527.529</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>Otr1009</td>
+        <td>Otros</td>
+        <td>1</td>
+        <td>$ 40.207</td>
+        <td>$ 68.147</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>Otr1007</td>
+        <td>Otros</td>
+        <td>19</td>
+        <td>$ 47.045</td>
+        <td>$ 71.280</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>Otr1010</td>
+        <td>Otros</td>
+        <td>12</td>
+        <td>$ 25.001</td>
+        <td>$ 52.085</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>Otr1004</td>
+        <td>Otros</td>
+        <td>21</td>
+        <td>$ 15.646</td>
+        <td>$ 23.008</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>Ele1009</td>
+        <td>Electrónica</td>
+        <td>1</td>
+        <td>$ 699.798</td>
+        <td>$ 1.295.922</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>Ali1004</td>
+        <td>Alimentos</td>
+        <td>24</td>
+        <td>$ 32.049</td>
+        <td>$ 50.871</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>Hog1004</td>
+        <td>Hogar</td>
+        <td>22</td>
+        <td>$ 488.012</td>
+        <td>$ 920.777</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>Otr1004</td>
+        <td>Otros</td>
+        <td>19</td>
+        <td>$ 38.199</td>
+        <td>$ 83.041</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>Hog1006</td>
+        <td>Hogar</td>
+        <td>21</td>
+        <td>$ 268.013</td>
+        <td>$ 400.019</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>Hog1010</td>
+        <td>Hogar</td>
+        <td>16</td>
+        <td>$ 477.857</td>
+        <td>$ 868.830</td>
+      </tr>
+      <tr>
+        <td>23</td>
+        <td>Ele1008</td>
+        <td>Electrónica</td>
+        <td>23</td>
+        <td>$ 111.592</td>
+        <td>$ 189.138</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>Otr1003</td>
+        <td>Otros</td>
+        <td>2</td>
+        <td>$ 21.031</td>
+        <td>$ 33.382</td>
+      </tr>
+      <tr>
+        <td>25</td>
+        <td>Sal1010</td>
+        <td>Salud</td>
+        <td>9</td>
+        <td>$ 52.278</td>
+        <td>$ 79.209</td>
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>Sal1004</td>
+        <td>Salud</td>
+        <td>6</td>
+        <td>$ 45.585</td>
+        <td>$ 65.121</td>
+      </tr>
+      <tr>
+        <td>27</td>
+        <td>Dep1006</td>
+        <td>Deportes</td>
+        <td>18</td>
+        <td>$ 442.536</td>
+        <td>$ 650.788</td>
+      </tr>
+      <tr>
+        <td>28</td>
+        <td>Otr1006</td>
+        <td>Otros</td>
+        <td>20</td>
+        <td>$ 36.075</td>
+        <td>$ 80.166</td>
+      </tr>
+      <tr>
+        <td>29</td>
+        <td>Ali1001</td>
+        <td>Alimentos</td>
+        <td>24</td>
+        <td>$ 25.196</td>
+        <td>$ 41.993</td>
+      </tr>
+      <tr>
+        <td>30</td>
+        <td>Rop1002</td>
+        <td>Ropa</td>
+        <td>7</td>
+        <td>$ 58.158</td>
+        <td>$ 116.316</td>
+      </tr>
+      <tr>
+        <td>31</td>
+        <td>Ali1002</td>
+        <td>Alimentos</td>
+        <td>5</td>
+        <td>$ 28.789</td>
+        <td>$ 42.968</td>
+      </tr>
+      <tr>
+        <td>32</td>
+        <td>Otr1002</td>
+        <td>Otros</td>
+        <td>16</td>
+        <td>$ 39.614</td>
+        <td>$ 53.532</td>
+      </tr>
+      <tr>
+        <td>33</td>
+        <td>Hog1006</td>
+        <td>Hogar</td>
+        <td>15</td>
+        <td>$ 397.143</td>
+        <td>$ 651.054</td>
+      </tr>
+      <tr>
+        <td>34</td>
+        <td>Rop1002</td>
+        <td>Ropa</td>
+        <td>2</td>
+        <td>$ 132.569</td>
+        <td>$ 192.128</td>
+      </tr>
+      <tr>
+        <td>35</td>
+        <td>Otr1007</td>
+        <td>Otros</td>
+        <td>17</td>
+        <td>$ 21.044</td>
+        <td>$ 28.058</td>
+      </tr>
+      <tr>
+        <td>36</td>
+        <td>Ele1002</td>
+        <td>Electrónica</td>
+        <td>4</td>
+        <td>$ 614.888</td>
+        <td>$ 891.142</td>
+      </tr>
+      <tr>
+        <td>37</td>
+        <td>Rop1007</td>
+        <td>Ropa</td>
+        <td>14</td>
+        <td>$ 124.465</td>
+        <td>$ 254.010</td>
+      </tr>
+      <tr>
+        <td>38</td>
+        <td>Hog1004</td>
+        <td>Hogar</td>
+        <td>7</td>
+        <td>$ 104.081</td>
+        <td>$ 138.774</td>
+      </tr>
+      <tr>
+        <td>39</td>
+        <td>Hog1004</td>
+        <td>Hogar</td>
+        <td>23</td>
+        <td>$ 537.443</td>
+        <td>$ 959.719</td>
+      </tr>
+      <tr>
+        <td>40</td>
+        <td>Otr1003</td>
+        <td>Otros</td>
+        <td>17</td>
+        <td>$ 14.991</td>
+        <td>$ 20.535</td>
+      </tr>
+      <tr>
+        <td>41</td>
+        <td>Otr1005</td>
+        <td>Otros</td>
+        <td>1</td>
+        <td>$ 15.792</td>
+        <td>$ 32.228</td>
+      </tr>
+      <tr>
+        <td>42</td>
+        <td>Rop1004</td>
+        <td>Ropa</td>
+        <td>15</td>
+        <td>$ 94.033</td>
+        <td>$ 167.916</td>
+      </tr>
+      <tr>
+        <td>43</td>
+        <td>Dep1002</td>
+        <td>Deportes</td>
+        <td>19</td>
+        <td>$ 410.432</td>
+        <td>$ 594.828</td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td>Dep1010</td>
+        <td>Deportes</td>
+        <td>17</td>
+        <td>$ 236.331</td>
+        <td>$ 513.763</td>
+      </tr>
+      <tr>
+        <td>45</td>
+        <td>Otr1005</td>
+        <td>Otros</td>
+        <td>16</td>
+        <td>$ 39.124</td>
+        <td>$ 75.238</td>
+      </tr>
+      <tr>
+        <td>46</td>
+        <td>Dep1009</td>
+        <td>Deportes</td>
+        <td>24</td>
+        <td>$ 458.059</td>
+        <td>$ 654.370</td>
+      </tr>
+      <tr>
+        <td>47</td>
+        <td>Ali1006</td>
+        <td>Alimentos</td>
+        <td>17</td>
+        <td>$ 75.987</td>
+        <td>$ 165.189</td>
+      </tr>
+      <tr>
+        <td>48</td>
+        <td>Dep1008</td>
+        <td>Deportes</td>
+        <td>2</td>
+        <td>$ 280.363</td>
+        <td>$ 572.169</td>
+      </tr>
+      <tr>
+        <td>49</td>
+        <td>Rop1005</td>
+        <td>Ropa</td>
+        <td>10</td>
+        <td>$ 162.797</td>
+        <td>$ 219.995</td>
+      </tr>
+      <tr>
+        <td>50</td>
+        <td>Dep1004</td>
+        <td>Deportes</td>
+        <td>22</td>
+        <td>$ 194.764</td>
+        <td>$ 405.758</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
